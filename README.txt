@@ -29,3 +29,5 @@ This staging area is the place where git knows What changes will be done from th
 
 11. `git restore --staged <file>` -> it removes file from changs from staging area to the Working area.
 this only works if changes are in your staging area 
+
+12. ``

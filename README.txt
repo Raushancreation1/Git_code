@@ -30,4 +30,9 @@ This staging area is the place where git knows What changes will be done from th
 11. `git restore --staged <file>` -> it removes file from changs from staging area to the Working area.
 this only works if changes are in your staging area 
 
-12. ``
+12. Diff between git rm and git restore.
+ans: if you want to move the whole file back to the untracked state, then we do git rm, otherwise if we just want the changes to be moved in Working area or staging are then we git restore
+
+13. `git diff commit commit2 ` -> gives the difference of all file changes between two commits 
+
+14. ` ` -> If we want to avoid opening  text editor like vim/nano to add commit message we can use this follwing  command 
